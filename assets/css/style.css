@@ -1,0 +1,97 @@
+/* Teal color (used for headings and backgrounds): #4aaaa5
+
+Regular font color (used for paragraphs and all text besides the headings): #777777
+
+Main header background color: #ffffff
+
+Main header border color: #cccccc
+
+Footer background color: #666666
+
+Main content background color: #ffffff
+
+Main content border color: #dddddd */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: grey;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.wrapper {
+    width: 960px;
+    height: 500px;
+    margin: auto;
+    background:white;
+}
+
+hr {
+        margin-top: 0px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        height: 2px;
+        width: 100%;
+}
+
+.container {
+    height: 200px;
+    width: 100%;
+    padding: 30px;
+    background: #ffffff;
+    position: relative;
+}
+
+#box1 {
+        height: 100px;
+        width: 250px;
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 500;
+        font-size: 24px;
+        background: #4aaaa5;
+        float: left;
+        bottom: 0;
+        margin-bottom: 0px;
+        left: 25px;
+        padding-top: 40px;
+        padding-left: 0px;
+}
+
+    #box2 {
+        position: absolute;
+        color: grey;
+        padding: 10px;
+        float: right;
+        right: 120px;
+        bottom: 15px;
+    }
+
+
+img{
+    float:left;
+    height:60px;
+    width: 30%;
+}
+P{
+    float:left;
+    height: 70px;
+    width:40%
+}
+h2{
+    color: #4aaaa5;
+        padding: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+}
