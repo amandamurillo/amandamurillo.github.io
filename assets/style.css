@@ -1,0 +1,99 @@
+.navbar{
+    width: 800px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  background-color: #2B2E3B;
+  font-family: 'Allura', cursive;
+  font-size: 45px
+}
+
+.container2{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 800px;
+    background-color: white
+}
+
+body{
+  background: url("../assets/images/concrete_seamless.png");
+}
+
+.row{
+  margin:auto;
+  margin-top: 0px;
+  padding-bottom: 15px;
+}
+
+.img{
+  float:left;
+  height:200px;
+  width:200px;
+  margin-left: 32px;
+}
+
+#p1{
+    float: right;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-family: 'Allura', cursive;
+    font-size: 35px;
+    height: 30px;
+}
+.col-8{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#p2{
+  float:right;
+  margin-left: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+form{
+  margin: auto;
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+}
+.img-thumbnail{
+height: 200px;
+}
+
+.footer{
+  height: 50px;
+  width: 800px;
+  margin: auto;
+  background-color: #343a40!important;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.image { 
+  position: relative; 
+  width: 100%; /* for IE 6 */
+}
+
+h2 { 
+  position: absolute; 
+  margin-bottom: 0px;
+  top: 150px;
+  margin-top: 0px;
+  bottom: 20px;
+  text-align: center;
+  left: 0; 
+  width: 100%; 
+  background: url("../assets/images/concrete_seamless.png");
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+}
+
+
